@@ -6,18 +6,18 @@ import '../main.scss'
 
 
 const Section1 = () => (
-    <section id="home-section" className="hero">
+    <section id="home-section padding" className="hero">
         <div className="home-slider  owl-carousel">
             <div className="slider-item ">
                 <div className="overlay"></div>
                 <div className="container-fluid p-0">
                     <div className="row d-md-flex no-gutters slider-text  align-items-center justify-content-end" data-scrollax-parent="true">
-                        <div className="one-third order-md-last img bg19">
+                        <div className="one-third order-md-last img bg-discover">
                         </div>
                         <div className="one-forth d-flex  align-items-center"
                              data-scrollax=" properties: { translateY: '70%' }">
                             <div className="text">
-                                <span className="subheading">Winkel eCommerce Shop</span>
+                                <span className="subheading">Jasmin Boutique</span>
                                 <div className="horizontal">
                                     <h3 className="vr bg2" >Stablished
                                         Since 2000</h3>

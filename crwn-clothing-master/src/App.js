@@ -9,13 +9,14 @@ import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 import CheckoutPage from './pages/checkout/checkout.component';
-
+import AboutUs from "./pages/about-us/about-us";
 import Header from './components/header/header.component';
 
 
 
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
+import Footer from "./components/footer/footer";
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
@@ -26,9 +27,11 @@ class App extends React.Component {
       <div>
         <Header />
         <Switch>
+
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
+          <Route path='/aboutus' component={AboutUs}/>
           <Route
             exact
             path='/signin'
@@ -41,6 +44,7 @@ class App extends React.Component {
             }
           />
         </Switch>
+          <Footer/>
       </div>
     );
   }

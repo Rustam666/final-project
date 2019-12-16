@@ -24,3 +24,14 @@
     }
   }
 }
+@media screen and (max-width: 400px) {
+  .option{
+   margin-top: 10px;
+    font-size: 10pt;
+    margin-left: 0px;
+    padding: 5px !important;
+  }
+  .responsive{
+    display: none;
+  }
+}

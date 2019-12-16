@@ -25,9 +25,11 @@ const Header = ({ currentUser, hidden }) => (
       <Link className='option' to='/shop'>
         CONTACT
       </Link>
-
+        <Link className='option' to='/aboutus'>
+            ABOUT <div className='responsive'>US</div>
+        </Link>
         <Link className='option' to='/signin'>
-          SIGN IN
+          SIGN <div className='responsive'>IN</div>
         </Link>
 
       <CartIcon />

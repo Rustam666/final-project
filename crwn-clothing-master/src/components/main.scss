@@ -1,8 +1,32 @@
-.bg19{
+.bg-discover{
   background-image: url("images/bg_2.jpg");
   background-size: cover;
+  height: 740px;
+
+}
+body{
+  padding: 10px !important;
+}
+
+.bg-ship{
+  background-image: url("images/about.jpg");
+}
+
+.bg-about{
+  background-image: url("images/bg_6.jpg");
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  width: 1000px;
-  height: 700px;
+}
+
+.margin{
+  margin-top: 80px;
+}
+
+.bg-new1{
+  background-image: url("images/about-1.jpg");
+
+}
+
+.bg-new2{
+  background-image: url("images/product-2.jpg");
 }
