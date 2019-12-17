@@ -17,7 +17,7 @@ import Header from './components/header/header.component';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 import Footer from "./components/footer/footer";
-
+import SingleProduct from "./pages/SingleProduct/singleproduct";
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
@@ -30,6 +30,7 @@ class App extends React.Component {
 
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
+          <Route  path='/shop:product' component={SingleProduct}/>
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route path='/aboutus' component={AboutUs}/>
           <Route

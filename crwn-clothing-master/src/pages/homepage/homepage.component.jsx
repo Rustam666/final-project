@@ -6,7 +6,7 @@ import './homepage.styles.scss';
 import Ship from "../../components/ship-section/ship";
 import Slider from "../../components/carousel/carousel";
 import NewCollection from "../../components/new-collection/new-collection";
-import Footer from "../../components/footer/footer";
+
 
 
 const HomePage = () => (

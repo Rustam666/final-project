@@ -49,7 +49,6 @@ const Ship =()=>(
                             <div className="col-lg-4 text-center d-flex align-self-stretch ">
                                 <div className="media block-6 services">
                                     <div className="icon d-flex justify-content-center align-items-center mb-4">
-                                        <img/>
                                     </div>
                                     <div className="media-body">
                                         <h3 className="heading">Superior Quality</h3>
