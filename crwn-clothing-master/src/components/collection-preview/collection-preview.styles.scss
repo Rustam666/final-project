@@ -3,6 +3,11 @@
   flex-direction: column;
   margin-bottom: 30px;
 
+
+
+
+
+
   .title {
     font-size: 28px;
     margin-bottom: 25px;
@@ -12,4 +17,13 @@
     display: flex;
     justify-content: space-between;
   }
+}
+
+@media screen and(max-width: 650px) {
+  .collection-preview{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
 }
