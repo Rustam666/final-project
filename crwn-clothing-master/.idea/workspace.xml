@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2e09ea-57e3-4f5b-a0ad-7625f3200573" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bootstrap/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bootstrap/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-buttom.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-buttom.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/new-collection/new-collection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/new-collection/new-collection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section1/section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section1/section.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section2/section2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section2/section2.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +73,7 @@
       <workItem from="1576499543256" duration="3245000" />
       <workItem from="1576559598478" duration="1258000" />
       <workItem from="1576603177640" duration="13420000" />
-      <workItem from="1576673688999" duration="664000" />
+      <workItem from="1576673688999" duration="1651000" />
     </task>
     <servers />
   </component>

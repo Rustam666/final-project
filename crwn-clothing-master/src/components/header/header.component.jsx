@@ -49,7 +49,11 @@ class Header extends React.Component {
                             CONTACT US
                         </Link>
                     </li>
-
+                        <li>
+                            <Link to='/signin'>
+                                SIGN IN
+                            </Link>
+                        </li>
                     </ul>
                     <div className='flex'>
                         <div className={this.state.isOpen?'none':""}>
