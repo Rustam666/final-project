@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../bootstrap/bootstrap-grid.css';
 import '../bootstrap/style.css'
 import  '../bootstrap/bootstrap-reboot.css';
 import '../main.scss';
@@ -110,6 +110,9 @@ const Section2 =()=>(
                                 <div className="pricing">
                                     <p className="price"><span>$120.00</span></p>
                                 </div>
+                                <div className="rating">
+
+                                </div>
                             </div>
                             <p className="bottom-area d-flex px-3">
                                 <a href="#" className="add-to-cart text-center py-2 mr-1"><span>Add to cart </span></a>
@@ -120,7 +123,6 @@ const Section2 =()=>(
                 </div>
             </div>
         </div>
-
     </section>
 
 

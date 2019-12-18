@@ -3,19 +3,14 @@ import '../bootstrap/bootstrap-grid.css';
 import '../bootstrap/style.css'
 import  '../bootstrap/bootstrap-reboot.css';
 import '../main.scss';
-import {FaInstagram} from "react-icons/all";
-import {FaTwitter} from "react-icons/all";
-import {FaFacebook} from "react-icons/all";
-import {FaArrowAltCircleUp} from "react-icons/all";
 
 const Footer=()=>(
     <footer className="ftco-footer bg-light ftco-section ">
-
         <div className="container margin">
             <div className="row">
                 <div className="mouse">
                     <a href="#" className="mouse-icon margin">
-                        <div className="mouse-wheel"><FaArrowAltCircleUp/></div>
+                        <div className="mouse-wheel"></div>
                     </a>
                 </div>
             </div>
@@ -25,9 +20,9 @@ const Footer=()=>(
                         <h2 className="ftco-heading-2">Jasmin Boutique</h2>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                         <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                            <li><a href="#"><FaTwitter className='icon1'/></a></li>
-                            <li><a href="#"><FaFacebook className='icon1'/></a></li>
-                            <li><a href="#"><FaInstagram className='icon1'/></a></li>
+                            <li className="ftco-animate"><a href="#"><span className="icon-twitter"></span></a></li>
+                            <li className="ftco-animate"><a href="#"><span className="icon-facebook"></span></a></li>
+                            <li className="ftco-animate"><a href="#"><span className="icon-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>
