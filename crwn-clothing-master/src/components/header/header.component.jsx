@@ -45,7 +45,7 @@ class Header extends React.Component {
                         </Link>
                     </li>
                     <li>
-                        <Link to='/contact'>
+                        <Link to='/contacts'>
                             CONTACT US
                         </Link>
                     </li>

@@ -11,6 +11,7 @@ import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up
 import CheckoutPage from './pages/checkout/checkout.component';
 import AboutUs from "./pages/about-us/about-us";
 import Header from './components/header/header.component';
+import Contacts from './pages/contacts/contacts';
 
 
 
@@ -33,6 +34,7 @@ class App extends React.Component {
           <Route  path='/shop:product' component={SingleProduct}/>
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route path='/aboutus' component={AboutUs}/>
+            <Route path='/contacts' component={Contacts} />
           <Route
             exact
             path='/signin'
