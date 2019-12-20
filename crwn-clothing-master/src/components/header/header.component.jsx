@@ -49,13 +49,17 @@ class Header extends React.Component {
                             CONTACT US
                         </Link>
                     </li>
-
+                        <li>
+                            <Link to='/signin'>
+                                SIGN IN
+                            </Link>
+                        </li>
                     </ul>
                     <div className='flex'>
                         <div className={this.state.isOpen?'none':""}>
                     <CartIcon />
                         </div>
-                    <button type='button' className='nav-btn' onClick={this.handleToggle}>
+                    <button type='button' className="nav-btn" onClick={this.handleToggle}>
                         <FaAlignRight  className='nav-icon'/>
                     </button>
                     </div>

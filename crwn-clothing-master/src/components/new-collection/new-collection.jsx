@@ -1,5 +1,5 @@
 import React from 'react';
-import '../bootstrap/bootstrap-grid.css';
+
 import '../bootstrap/style.css'
 import  '../bootstrap/bootstrap-reboot.css';
 import '../main.scss';

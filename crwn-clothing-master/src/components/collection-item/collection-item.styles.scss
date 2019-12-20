@@ -1,10 +1,22 @@
+.card{
+  width: fit-content;
+  height: 400px;
+}
+
+
+
 .collection-item {
-  width: 22vw;
+  width: 310px;
   display: flex;
   flex-direction: column;
   height: 350px;
+  justify-content: center;
   align-items: center;
   position: relative;
+  margin: 10px;
+  box-sizing: border-box;
+
+  
 
   .image {
     width: 100%;
@@ -24,12 +36,13 @@
 
   &:hover {
     .image {
-      opacity: 0.8;
+
+      background-color: #ffa45c;
     }
 
     .custom-button {
-      opacity: 0.85;
       display: flex;
+      background-color: #ffa45c;
     }
   }
 
@@ -46,7 +59,9 @@
     }
 
     .price {
-      width: 10%;
+      width: 20%;
     }
   }
 }
+
+

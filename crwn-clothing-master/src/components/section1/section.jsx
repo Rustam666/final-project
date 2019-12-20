@@ -14,7 +14,7 @@ const Section1 = () => (
                     <div className="row d-md-flex no-gutters slider-text  align-items-center justify-content-end" data-scrollax-parent="true">
                         <div className="one-third order-md-last img bg-discover">
                         </div>
-                        <div className="one-forth d-flex  align-items-center"
+                        <div className="one-forth d-flex align-items-center"
                              data-scrollax=" properties: { translateY: '70%' }">
                             <div className="text">
                                 <span className="subheading">Jasmin Boutique</span>
