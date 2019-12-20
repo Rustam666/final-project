@@ -19,6 +19,7 @@ import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 import Footer from "./components/footer/footer";
 import SingleProduct from "./pages/SingleProduct/singleproduct";
+import Contact from "./components/contact-section/contact";
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
@@ -28,7 +29,7 @@ class App extends React.Component {
       <div>
         <Header />
         <Switch>
-
+            <Route exact path='/contact' component={Contact}/>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route  path='/shop:product' component={SingleProduct}/>
