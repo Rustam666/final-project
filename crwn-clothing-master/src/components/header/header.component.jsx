@@ -59,7 +59,7 @@ class Header extends React.Component {
                         <div className={this.state.isOpen?'none':""}>
                     <CartIcon />
                         </div>
-                    <button type='button' className='nav-btn' onClick={this.handleToggle}>
+                    <button type='button' className="nav-btn" onClick={this.handleToggle}>
                         <FaAlignRight  className='nav-icon'/>
                     </button>
                     </div>
