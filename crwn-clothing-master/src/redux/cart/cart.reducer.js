@@ -6,6 +6,15 @@ const INITIAL_STATE = {
   cartItems: []
 };
 
+fetch('',{
+  method: "POST",
+  body: JSON.stringify({
+    name: '',
+    email: '',
+    subject: ''
+  })
+})
+
 const cartReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case CartActionTypes.TOGGLE_CART_HIDDEN:
