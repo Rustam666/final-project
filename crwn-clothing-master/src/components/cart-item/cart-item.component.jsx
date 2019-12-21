@@ -23,4 +23,6 @@ const CartItem = ({ item: { imageUrl, price, name, quantity } }) => (
       </div>
 );
 
+//fuck fuck
+
 export default CartItem;

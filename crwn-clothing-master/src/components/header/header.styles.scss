@@ -1,12 +1,13 @@
 .nav-center{
   display: flex;
   justify-content: space-between;
-  height: 50px;
+  height: auto;
 }
 .none{
   display: none;
 }
 .barbar1{
+
   top: 0;
   left: 0;
   width: 100%;
@@ -53,11 +54,15 @@
 
 .show-nav {
   height: 150px;
-  background-color: #1a1a1a
+  margin: 0 auto;
+  width: 700px;
+  background-color: #1a1a1a;
+  color: white;
 }
 
 .flex{
   display: flex;
+
 }
 @media screen and (min-width: 768px) {
 
@@ -84,8 +89,11 @@
     position: fixed;
 
   }
+
+
   .nav-center{
     max-width: 600px;
+
   }
 
 
