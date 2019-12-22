@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import CustomButton from '../custom-button/custom-button.component';
 import { addItem } from '../../redux/cart/cart.actions';
-
+import { Link } from 'react-router-dom';
 import './collection-item.styles.scss';
 import '../bootstrap/style.css'
 
@@ -11,6 +11,7 @@ const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
 
   return (
+      <Link path={`/${props.setCollections.items.id}`}>
 <div className='card'>
     <div className='collection-item  '>
       <div
@@ -28,6 +29,7 @@ const CollectionItem = ({ item, addItem }) => {
       </CustomButton>
     </div>
 </div>
+      </Link>
   );
 };
 

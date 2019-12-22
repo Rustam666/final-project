@@ -8,7 +8,7 @@ import Slider from "../../components/carousel/carousel";
 import NewCollection from "../../components/new-collection/new-collection";
 import NewShop from "../../components/shop.new/newshop";
 import CollectionItem from "../../components/collection-item/collection-item.component";
-import ContentFeed from "../../components/fetch/fetch";
+
 
 
 
@@ -22,7 +22,7 @@ const HomePage = () => (
 <Slider/>
 <NewCollection/>
 <NewShop/>
-<ContentFeed></ContentFeed>
+
 
 
     </div>

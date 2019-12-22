@@ -1,4 +1,5 @@
 import React from 'react';
+import Axios from "axios";
 
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
@@ -19,39 +20,17 @@ class SignUp extends React.Component {
     };
   }
 
-  handleSubmit = async event => {
-    event.preventDefault();
+  handleSubmit = e => {
+    e.preventDefault()
+    console.log(this.state)
+      Axios.post('http://18.215.250.222:8087/products',this.state)
+          .then(response => {
+              console.log(response)
+          })
+  }
 
-    const { displayName, email, password, confirmPassword } = this.state;
-
-    if (password !== confirmPassword) {
-      alert("passwords don't match");
-      return;
-    }
-
-    try {
-      const { user } = await (
-        email,
-        password
-      );
-
-      await (user, { displayName });
-
-      this.setState({
-        displayName: '',
-        email: '',
-        password: '',
-        confirmPassword: ''
-      });
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  handleChange = event => {
-    const { name, value } = event.target;
-
-    this.setState({ [name]: value });
+  handleChange = e => {
+    this.setState({[e.target.name]: e.target.value})
   };
 
   render() {
