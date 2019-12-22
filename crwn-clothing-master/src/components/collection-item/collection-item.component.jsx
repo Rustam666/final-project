@@ -11,7 +11,7 @@ const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
 
   return (
-      <Link path={`/${props.setCollections.items.id}`}>
+      /*<Link path={`/${props.setCollections.items.id}`}>*/
 <div className='card'>
     <div className='collection-item  '>
       <div
@@ -29,7 +29,7 @@ const CollectionItem = ({ item, addItem }) => {
       </CustomButton>
     </div>
 </div>
-      </Link>
+    /*  </Link>*/
   );
 };
 
