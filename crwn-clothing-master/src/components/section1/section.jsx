@@ -9,7 +9,7 @@ import '../main.scss'
 const Section1 = () => (
     <Spring from={{opacity:0,marginTop:-500}}
             to={{opacity:1,marginTop:0}}
-            config={{duration:1500}}
+            config={{duration:1000}}
 
     >
         {props =>(
@@ -28,7 +28,7 @@ const Section1 = () => (
 
                                 <Spring from={{opacity:0}}
                                         to={{opacity:1}}
-                                        config={{delay:2000,duration:2000}}
+                                        config={{delay:1000,duration:1000}}
                                         onScroll={onscroll}
                                 >
                                     {props =>(
