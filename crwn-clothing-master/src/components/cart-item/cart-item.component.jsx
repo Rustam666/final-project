@@ -8,7 +8,7 @@ const CartItem = ({ item: { imageUrl, price, name, quantity } }) => (
 
       <div className="product">
           <a href="#" className="img-prod">
-              <img className="img-fluid" src={imageUrl} alt="no fucks given"/>
+              <img className="img-fluid" src={imageUrl} alt="#"/>
               <span className="status">30%</span>
 
           </a>

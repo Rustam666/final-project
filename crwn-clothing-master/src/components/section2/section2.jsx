@@ -37,9 +37,7 @@ const Section2 =()=>(
                                         className="price-sale">$80.00</span></p>
                                 </div>
                                 <div className="rating">
-                                    <CustomButton onClick={() => addItem()} inverted>
-                                        Add to cart
-                                    </CustomButton>
+
                                 </div>
                             </div>
                             <p className="bottom-area d-flex px-3">
