@@ -6,8 +6,17 @@ import '../main.scss';
 import Recommend from '../../assets/recommended (1).png';
 import Box from '../../assets/box.png';
 import Medal from '../../assets/quality.png'
+import {Spring} from "react-spring/renderprops-universal";
 
 const Ship =()=>(
+    <Spring from={{opacity:0}}
+            to={{opacity:1}}
+            config={{delay:2000,duration:2000}}
+
+
+    >
+        {props =>(
+            <div style={props}>
     <section className=" bg-light">
         <div className="container">
             <div className="row">
@@ -74,8 +83,10 @@ const Ship =()=>(
             </div>
         </div>
     </section>
+            </div>
+        )}
 
-
+    </Spring>
 
 
 );

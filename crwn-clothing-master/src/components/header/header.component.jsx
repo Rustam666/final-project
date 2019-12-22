@@ -9,10 +9,10 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 import Logo1 from '../../assets/colorfull_logo.png'
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+
 
 import './header.styles.scss';
-import {style} from "redux-logger/src/diff";
+
 
 class Header extends React.Component {
     state = {

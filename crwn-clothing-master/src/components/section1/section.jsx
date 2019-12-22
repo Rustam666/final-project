@@ -1,4 +1,5 @@
 import React from 'react';
+import {Spring} from "react-spring/renderprops-universal";
 import '../bootstrap/bootstrap-grid.css';
 import '../bootstrap/style.css'
 import  '../bootstrap/bootstrap-reboot.css';
@@ -6,6 +7,13 @@ import '../main.scss'
 
 
 const Section1 = () => (
+    <Spring from={{opacity:0,marginTop:-500}}
+            to={{opacity:1,marginTop:0}}
+            config={{duration:1500}}
+
+    >
+        {props =>(
+            <div style={props}>
     <section id="home-section padding" className="hero">
         <div className="home-slider  owl-carousel">
             <div className="slider-item ">
@@ -17,6 +25,14 @@ const Section1 = () => (
                         <div className="one-forth d-flex align-items-center"
                              data-scrollax=" properties: { translateY: '70%' }">
                             <div className="text">
+
+                                <Spring from={{opacity:0}}
+                                        to={{opacity:1}}
+                                        config={{delay:2000,duration:2000}}
+                                        onScroll={onscroll}
+                                >
+                                    {props =>(
+                                        <div style={props}>
                                 <span className="subheading">Jasmin Boutique</span>
                                 <div className="horizontal">
                                     <h3 className="vr bg2" >Stablished
@@ -27,6 +43,10 @@ const Section1 = () => (
 
                                     <p><a href="#" className="btn btn-primary px-5 py-3 mt-3">Discover Now</a></p>
                                 </div>
+                                        </div>
+                                    )}
+                                </Spring>
+
                             </div>
                         </div>
                     </div>
@@ -35,7 +55,9 @@ const Section1 = () => (
 
         </div>
     </section>
-
+            </div>
+            )}
+    </Spring>
 )
 
 export default Section1

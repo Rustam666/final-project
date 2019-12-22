@@ -13,12 +13,12 @@ class ContentFeed extends React.Component {
     componentDidMount() {
         this.getItems();
     }
-
+    // console.log(this.state.items)
     getItems() {
 
         fetch(`http://192.168.1.205:8080/products`)
             .then(results => results.json())
-            .then(results => this.setState((state) => ({items: [...state.items, results]} ) ) );
+            .then(results => this.setState((state) => ({items: [...state.items, results]} ) ) )
 
 
     }
@@ -27,11 +27,15 @@ class ContentFeed extends React.Component {
 
 
     render() {
-        return <div>
-            {this.getItems()}
-        </div>
-    }
 
+        return <div>
+
+            {this.getItems()}
+
+
+        </div>
+        // console.log(this.state.items)
+    }
 
 }
 

@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2e09ea-57e3-4f5b-a0ad-7625f3200573" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/fetch/fetch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dynamic-numbers-section/dynamic-numbers.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-item/cart-item.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact-section/contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-section/contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fetch/fetch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fetch/fetch.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section1/section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section1/section.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/section2/section2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section2/section2.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ship-section/ship.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ship-section/ship.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shop.new/newshop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shop.new/newshop.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about-us/about-us.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-us/about-us.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.selectors.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../winkel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../crwn-clothing-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -102,7 +101,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/contact-section/contact.jsx</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

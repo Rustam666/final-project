@@ -9,12 +9,20 @@ import Product3 from '../images/product-3.jpg';
 import Product4 from '../images/product-4.jpg';
 import CustomButton from "../custom-button/custom-button.component";
 import { addItem } from '../../redux/cart/cart.actions';
+import {Spring} from "react-spring/renderprops-universal";
 
-const Section2 =()=>(
+const Section2 =()=>( <Spring from={{opacity:0}}
+                              to={{opacity:1}}
+                              config={{delay:2000,duration:3000}}
+
+>
+    {props =>(
+        <div style={props}>
+
     <section className="bg-light ">
-        <div className="container margin">
+        <div className="container ">
             <div className="row justify-content-center mb-3 pb-3">
-                <div className="col-md-12 heading-section text-center ">
+                <div className="col-md-12 heading-section text-center margin">
                     <h2 className="mb-4">Best Sellers</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                 </div>
@@ -120,7 +128,10 @@ const Section2 =()=>(
         </div>
 
     </section>
+        </div>
+            )}
 
+        </Spring>
 
 );
 

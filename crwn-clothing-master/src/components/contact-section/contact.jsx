@@ -3,6 +3,7 @@ import '../bootstrap/bootstrap-grid.css';
 import '../bootstrap/style.css'
 import  '../bootstrap/bootstrap-reboot.css';
 import '../main.scss';
+import Map from "../map/map";
 
 
 const ContactSection = () => (
@@ -54,6 +55,7 @@ const ContactSection = () => (
                     </div>
 
                     <div className="col-md-6 d-flex">
+                        <Map/>
                     </div>
                 </div>
             </div>
