@@ -8,7 +8,7 @@ import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
-
+import Logo1 from '../../assets/colorfull_logo.png'
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 
 import './header.styles.scss';
@@ -30,10 +30,19 @@ class Header extends React.Component {
                 <div className="nav-center">
                     <div className={this.state.isOpen?'none':"nav-header"}>
                         <Link to='/'>
-                            <img src='' alt='#'/>
+                            <div className="logo-container">
+                            <img className='logo' src={Logo1} alt='#'/>
+                            <h3>JASMIN BOUTIQUE</h3>
+                            </div>
                         </Link>
                     </div>
                     <ul className={this.state.isOpen?'nav-links show-nav':'nav-links'}>
+                        <li>
+
+                            <Link className='link' to='/'>
+                                HOME
+                            </Link>
+                        </li>
                         <li>
                             <Link to='/shop'>
                                 SHOP

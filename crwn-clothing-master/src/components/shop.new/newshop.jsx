@@ -1,21 +1,18 @@
 import React, {Component} from 'react';
-const ClotheContext = React.createContext()
+import {ClotheContext} from "./database";
 
 
-
-export default class ClotheProvider extends Component {
-    state={
-
-    }
+class NewShop extends Component {
+    static contextType = ClotheContext
     render() {
+        const {greeting} = this.context
+
         return (
-            <ClotheContext.Provider value-'hello'>
-                {this.props.children}
-            </ClotheContext.Provider>
+            <div>
+
+            </div>
         );
     }
 }
-const ClotheConsumer = ClotheContext.Consumer
- ClotheProvider;
 
-export {ClotheProvider,}
+export default NewShop;

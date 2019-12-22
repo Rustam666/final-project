@@ -3,7 +3,9 @@ import '../bootstrap/bootstrap-grid.css';
 import '../bootstrap/style.css'
 import  '../bootstrap/bootstrap-reboot.css';
 import '../main.scss';
-
+import Recommend from '../../assets/recommended (1).png';
+import Box from '../../assets/box.png';
+import Medal from '../../assets/quality.png'
 
 const Ship =()=>(
     <section className=" bg-light">
@@ -25,35 +27,44 @@ const Ship =()=>(
                         <div className="row ">
                             <div className="col-lg-4 text-center d-flex align-self-stretch">
                                 <div className="media block-6 services">
+                                    <div className="flexing">
                                     <div className="icon d-flex justify-content-center align-items-center mb-4">
-
+                                        <img className='shipping-icons' src={Recommend} alt='#'/>
                                     </div>
                                     <div className="media-body">
                                         <h3 className="heading">Refund Policy</h3>
                                         <p>Even the all-powerful Pointing has no control about the blind texts it is an
                                             almost unorthographic.</p>
                                     </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 text-center d-flex align-self-stretch ">
                                 <div className="media block-6 services">
+                                    <div className="flexing">
                                     <div className="icon d-flex justify-content-center align-items-center mb-4">
+                                        <img className='shipping-icons' src={Box} alt='#'/>
                                     </div>
                                     <div className="media-body">
                                         <h3 className="heading">Premium Packaging</h3>
                                         <p>Even the all-powerful Pointing has no control about the blind texts it is an
                                             almost unorthographic.</p>
                                     </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 text-center d-flex align-self-stretch ">
+                            <div className="col-lg-4 text-center d-flex align-self-stretch flexing">
                                 <div className="media block-6 services">
+                                    <div className="flexing">
                                     <div className="icon d-flex justify-content-center align-items-center mb-4">
+
+                                        <img className='shipping-icons' src={Medal} alt='#'/>
                                     </div>
                                     <div className="media-body">
                                         <h3 className="heading">Superior Quality</h3>
                                         <p>Even the all-powerful Pointing has no control about the blind texts it is an
                                             almost unorthographic.</p>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
