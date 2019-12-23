@@ -3,6 +3,7 @@ import '../bootstrap/bootstrap-grid.css';
 import '../bootstrap/style.css'
 import  '../bootstrap/bootstrap-reboot.css';
 import '../main.scss';
+import { Link } from 'react-router-dom';
 import {FaInstagram} from "react-icons/all";
 import {FaTwitter} from "react-icons/all";
 import {FaFacebook} from "react-icons/all";
@@ -35,10 +36,10 @@ const Footer=()=>(
                     <div className="ftco-footer-widget mb-4 ml-md-5">
                         <h2 className="ftco-heading-2">Menu</h2>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="py-2 d-block">Shop</a></li>
-                            <li><a href="#" className="py-2 d-block">About</a></li>
+                            <li><Link to="/shop" className="py-2 d-block">Shop</Link></li>
+                            <li><Link to="/aboutus" className="py-2 d-block">About</Link></li>
                             <li><a href="#" className="py-2 d-block">Journal</a></li>
-                            <li><a href="#" className="py-2 d-block">Contact Us</a></li>
+                            <li><Link to="/contacts" className="py-2 d-block">Contact Us</Link></li>
                         </ul>
                     </div>
                 </div>

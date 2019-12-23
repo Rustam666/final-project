@@ -47,7 +47,7 @@ export const SingleProduct = (props,{ addItems}) => {
                                                 <option value="">Large</option>
                                                 <option value="">Extra Large</option>
                                             </select>
-                                            <CustomButton onClick={() => addItems(product)} inverted>
+                                            <CustomButton className='custom-button2 custom-button' onClick={() => addItems(product)} inverted>
                                                 Add to cart
                                             </CustomButton>
                                         </div>
