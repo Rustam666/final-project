@@ -9,7 +9,7 @@ import Slider from "../carousel/carousel";
 import '../carousel/slider.scss'
 const Section2 =()=>( <Spring from={{opacity:0}}
                               to={{opacity:1}}
-                              config={{delay:2000,duration:3000}}
+                              config={{delay:2000,duration:2000}}
 
 >
     {props =>(
