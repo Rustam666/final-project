@@ -8,10 +8,10 @@ import {selectCollectionsForPreview} from "../../redux/shop/shop.selectors";
 import {connect} from "react-redux";
 import "./slider.scss"
 const Slider =({ collections })=> (
-    <div>products
+    <div>
     <AwesomeSlider className='slider'>
         {collections.map(({ id, ...otherCollectionProps }) => (
-            <div key={id} className='collections-overview'> <CollectionPreview  {...otherCollectionProps} /> </div>
+            <div key={id} className='collections-overview  margin'> <CollectionPreview id={id}  {...otherCollectionProps} /> </div>
         ))}
         </AwesomeSlider>
     </div>

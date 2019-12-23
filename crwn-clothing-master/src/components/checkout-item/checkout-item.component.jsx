@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import {
   clearItemFromCart,
+    addItems,
   addItem,
   removeItem
 } from '../../redux/cart/cart.actions';
@@ -37,6 +38,7 @@ const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
 const mapDispatchToProps = dispatch => ({
   clearItem: item => dispatch(clearItemFromCart(item)),
   addItem: item => dispatch(addItem(item)),
+    addItems: product => dispatch(addItem(product)),
   removeItem: item => dispatch(removeItem(item))
 });
 

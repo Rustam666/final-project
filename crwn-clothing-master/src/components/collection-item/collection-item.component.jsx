@@ -7,11 +7,12 @@ import { Link } from 'react-router-dom';
 import './collection-item.styles.scss';
 import '../bootstrap/style.css'
 
-const CollectionItem = ({ item, addItem }) => {
+const CollectionItem = ({ item, addItem, ...rest }) => {
   const { name, price, imageUrl } = item;
+  console.log(rest)
 
   return (
-      /*<Link path={`/${props.setCollections.items.id}`}>*/
+
 <div className='card'>
     <div className='collection-item  '>
       <div
@@ -20,9 +21,11 @@ const CollectionItem = ({ item, addItem }) => {
           backgroundImage: `url(${imageUrl})`
         }}
       />
-      <div className='collection-footer'>
-        <span className='name'>{name}</span>
-        <span className='price'>${price}</span>
+      <div className='collection-footer ff'>
+        <Link className='ff'to={`/product/${rest.collectionId}/${item.id}/`}>
+          <span className='name'>{name}</span>
+          <span className='price'>${price}</span>
+        </Link>
       </div>
       <CustomButton onClick={() => addItem(item)} inverted>
         Add to cart

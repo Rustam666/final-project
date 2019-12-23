@@ -1,5 +1,9 @@
 .awssld__content{
-  background-color:white !important;
+  background-color: #f8f9fa!important;
+  height: fit-content;
+}
+.bg-grey{
+  background-color: #f8f9fa!important ;
 }
 .awssld__controls__arrow-right:before {
   background-color: #ffa45c;
@@ -14,4 +18,17 @@
 
 .awssld__controls__arrow-left:after {
   background-color: #ffa45c;
+}
+.awssld__box{
+  height: fit-content;
+}
+
+
+.awssld--active{
+  height: fit-content;
+}
+
+.awssld__bullets{
+  position: unset;
+
 }

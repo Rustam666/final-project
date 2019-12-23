@@ -9,7 +9,7 @@ import DynamicNumbers from "../../components/dynamic-numbers-section/dynamic-num
 
 const AboutUs =()=> (
 <div className='aboutUs'>
-    <Banner title='About'/>
+    <Banner title='About Us'/>
 
     <Ship/>
     <DynamicNumbers/>

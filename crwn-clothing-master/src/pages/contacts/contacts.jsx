@@ -8,7 +8,7 @@ import Banner from "../../components/banner/banner";
 
 const Contacts = () => (
     <div>
-        <Banner title='Contact'/>
+        <Banner title='Contact Us'/>
         <ContactSection/>
     </div>
 );

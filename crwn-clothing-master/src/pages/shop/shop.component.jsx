@@ -17,11 +17,10 @@ const ShopPage = connect(null,{setCollections})(props => {
                 props.setCollections(results);
             })
     },[]);
-
     return (
     <div className='shop-page'>
         <Route exact path={`${props.match.path}`} component={CollectionsOverview} />
-       {/* <Route path={`${props.setCollections.hats}`} component={CollectionPage} />*/}
+
     </div>
 )});
 

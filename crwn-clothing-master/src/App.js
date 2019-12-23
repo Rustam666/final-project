@@ -36,6 +36,7 @@ class App extends React.Component {
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route path='/aboutus' component={AboutUs}/>
             <Route path='/contacts' component={Contacts} />
+            <Route exact path='/product/:collection/:product' component={SingleProduct}/>
           <Route
             exact
             path='/signin'
